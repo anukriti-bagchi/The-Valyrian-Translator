@@ -2,17 +2,17 @@
     margin: 0;   
 }
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
 :root{
    --primary-color : white;
-   --button-color : rgba(68, 68, 204, 0.733);
-   --text-color : blue;
+   --button-color : #3F2813;
+   --text-color : #3F2813;
 }
 html {
    font-size: 62.5%; }
  body{
     font-family: 'Lato', 'Arial', sans-serif;
-    background-image:  url(img/official-avatar-movie-poster-wallpaper.jpg);
+    background-image:  url(images/863265.jpg);
     background-size: cover;
     background-position:right;
     height: 100vh;
@@ -35,8 +35,10 @@ textarea{
 
 }
 #txt-output{
+   font-family: 'Lato', 'Arial', sans-serif;
    width: 30rem;
    height: 10vh;
+   font-size: 1.5rem;
    border: 0.5rem solid var(--button-color);
    padding: 1rem;
    margin:  auto ;
@@ -55,8 +57,9 @@ textarea{
 }
 .hero-txt{
    color: var(--primary-color);
-   font-size: 1.6rem;
-   font-family: 'Amatic SC', cursive;
+   font-size: 4rem;
+   /* font-family: 'Amatic SC', cursive; */
+   font-family: 'Scheherazade New', serif;;
    /* position: relative;
    bottom: 35%;
    left: 50%;
